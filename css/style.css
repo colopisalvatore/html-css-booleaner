@@ -2,7 +2,6 @@
     margin: auto;
     width: 100%;
     background-color: rgb(0, 140, 255);
-    position: relative;
 
     /* Stile per sfondo in pattern */
     background-image: url(../img/pattern.png);
@@ -36,4 +35,76 @@
     color: grey;
     margin-top: -15px;
 
+}
+
+/* Galleria Foto */
+.desc-foto {
+    font-size: 10px;
+    margin-top: -2px;
+}
+
+/* Paragrafo */
+
+.lorem {
+    background-color: yellow;
+}
+
+ul {
+    margin-left: -25px;
+}
+
+/* Tabella */
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+thead {
+    color: white;
+    background-color: rgb(0, 140, 255);  
+    height: 10px;
+    text-align: left;    
+}
+
+.tb-sx {
+    width: 25%;
+    text-align: left;
+    color: white;
+}
+
+.tb-dx {
+    width: 25%;
+    text-align: left;
+    color: white;
+}
+
+.riga {
+    background-color: rgba(0, 200, 250, 0.349);
+}
+
+/* Footer */
+h4 {
+    color: grey;
+    margin-bottom: 10px;
+}
+
+#img1 {
+    background-image: url("../img/monitor.jpg");
+    background-repeat: no-repeat;
+    width: 270px;
+}
+
+#img2 {
+    background-image: url("../img/graph.jpg");
+    background-repeat: no-repeat;
+    width: 270px;
+   
+}
+
+.img-titolo {
+    color: white;
+    padding-top: 5px;
+    padding-left: 10px;
+    padding-bottom: 180px;
 }
