@@ -1,0 +1,39 @@
+.header-background {
+    margin: auto;
+    width: 100%;
+    background-color: rgb(0, 140, 255);
+    position: relative;
+
+    /* Stile per sfondo in pattern */
+    background-image: url(../img/pattern.png);
+    display: inline-block;
+    background-size: 500px;
+}
+
+.logo {
+    content: url(../img/logo.svg);
+    display: inline-block;
+    height: 50px;
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+
+/* Stile Titolo e Trafiletto */
+#booleaner {
+    
+    font-size: 10;
+    color: grey;
+    margin-top: -20px;
+}
+
+#booleaner-color {
+    font-size: 10;
+    color: rgb(5, 176, 255);
+}
+
+#data {
+    font-size: 10px;    
+    color: grey;
+    margin-top: -15px;
+
+}
